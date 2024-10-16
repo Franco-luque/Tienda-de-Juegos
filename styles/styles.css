@@ -25,7 +25,7 @@ header {
   padding: 2rem 3rem;
 }
 
-header .logo {
+.logo {
   display: flex;
   flex: 1;
   gap: 1.5rem;
@@ -135,6 +135,7 @@ header .logo {
   align-items: center;
   justify-content: center;
   gap: 7vw;
+  margin-bottom: 10vh;
 }
 
 #estrellas h2 {
@@ -167,4 +168,25 @@ header .logo {
 
 #estrellas .computadoras {
   background-image: url(../images/banner\ silla.png);
+}
+
+footer {
+  background-color: #222222;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 4rem 3rem;
+}
+
+footer .redes p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+footer .redes ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
 }
