@@ -45,3 +45,29 @@ header .logo {
   text-decoration: none;
   color: #f3f3f3;
 }
+
+#inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/banner\ inicio.png);
+  height: 60vh;
+  align-items: center;
+  color: #f3f3f3;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+#inicio span {
+  color: #d01418;
+}
+
+#inicio .comprar {
+  background-color: #d01418;
+  border: none;
+  color: #f3f3f3;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+}
